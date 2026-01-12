@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Centered and Very Small Cartoony Lock -->
+    <group
+        android:pivotX="32"
+        android:pivotY="36"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:translateX="22"
+        android:translateY="18">
+        
+        <!-- Shackle (Rounded & Thick) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M32,4C23.16,4 16,11.16 16,20v8h32v-8C48,11.16 40.84,4 32,4zM24,20c0,-4.42 3.58,-8 8,-8s8,3.58 8,8v8h-16v-8z" />
+            
+        <!-- Body (Chunky Rounded Box) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M8,28h48c4.42,0 8,3.58 8,8v24c0,4.42 -3.58,8 -8,8H8c-4.42,0 -8,-3.58 -8,-8V36C0,31.58 3.58,28 8,28z" />
+            
+        <!-- Keyhole (Playful Circle) -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M32,42m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+            
+        <!-- Keyhole stem -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M30,46h4v8h-4z" />
+    </group>
+</vector>
